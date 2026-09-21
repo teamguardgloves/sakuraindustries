@@ -1,0 +1,517 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//sakuraindustries.com/newweb/wp-content/themes/woodmart/fonts/woodmart-font-1-400.woff2?v=8.0.0") format("woff2");
+}
+
+@font-face {
+	font-family: "star";
+	font-weight: 400;
+	font-style: normal;
+	src: url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/star.eot?#iefix") format("embedded-opentype"), url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/star.woff") format("woff"), url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/star.ttf") format("truetype"), url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/star.svg#star") format("svg");
+}
+
+@font-face {
+	font-family: "WooCommerce";
+	font-weight: 400;
+	font-style: normal;
+	src: url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot?#iefix") format("embedded-opentype"), url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff") format("woff"), url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf") format("truetype"), url("//sakuraindustries.com/newweb/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce") format("svg");
+}
+
+:root {
+	--wd-text-font: "Lato", Arial, Helvetica, sans-serif;
+	--wd-text-font-weight: 400;
+	--wd-text-color: #767676;
+	--wd-text-font-size: 14px;
+	--wd-title-font: "Open Sans", Arial, Helvetica, sans-serif;
+	--wd-title-font-weight: 600;
+	--wd-title-color: #242424;
+	--wd-entities-title-font: "Open Sans", Arial, Helvetica, sans-serif;
+	--wd-entities-title-font-weight: 600;
+	--wd-entities-title-color: #333333;
+	--wd-entities-title-color-hover: rgb(51 51 51 / 65%);
+	--wd-alternative-font: "Lato", Arial, Helvetica, sans-serif;
+	--wd-widget-title-font: "Open Sans", Arial, Helvetica, sans-serif;
+	--wd-widget-title-font-weight: 600;
+	--wd-widget-title-transform: uppercase;
+	--wd-widget-title-color: #333;
+	--wd-widget-title-font-size: 16px;
+	--wd-header-el-font: "Lato", Arial, Helvetica, sans-serif;
+	--wd-header-el-font-weight: 700;
+	--wd-header-el-transform: uppercase;
+	--wd-header-el-font-size: 13px;
+	--wd-primary-color: rgb(29,45,68);
+	--wd-alternative-color: rgb(46,173,244);
+	--wd-link-color: rgb(46,173,244);
+	--wd-link-color-hover: #242424;
+	--btn-default-bgcolor: #f7f7f7;
+	--btn-default-bgcolor-hover: #efefef;
+	--btn-accented-bgcolor: rgb(118,170,193);
+	--btn-accented-bgcolor-hover: rgb(87,151,178);
+	--wd-form-brd-width: 1px;
+	--notices-success-bg: #459647;
+	--notices-success-color: #fff;
+	--notices-warning-bg: #E0B252;
+	--notices-warning-color: #fff;
+}
+.woodmart-woocommerce-layered-nav .wd-scroll-content {
+	max-height: 223px;
+}
+.wd-popup.wd-age-verify {
+	--wd-popup-width: 500px;
+}
+.wd-popup.wd-promo-popup {
+	background-color: #111111;
+	background-image: url(https://sakuraindustries.com/newweb/wp-content/uploads/2021/08/promo-popup.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	--wd-popup-width: 800px;
+	--wd-popup-padding: 15px;
+}
+.wd-page-title {
+	background-color: rgb(0,176,245);
+	background-image: none;
+	background-size: cover;
+	background-position: center center;
+}
+.wd-footer {
+	background-color: rgb(29,45,68);
+	background-image: none;
+}
+.page .wd-page-content {
+	background-color: rgb(29,45,68);
+	background-image: none;
+}
+.woodmart-archive-shop:not(.single-product) .wd-page-content {
+	background-color: rgb(29,45,68);
+	background-image: none;
+}
+.single-product .wd-page-content {
+	background-color: rgb(29,45,68);
+	background-image: none;
+}
+.woodmart-archive-blog .wd-page-content {
+	background-color: rgb(29,45,68);
+	background-image: none;
+}
+.single-post .wd-page-content {
+	background-color: rgb(255,255,255);
+	background-image: none;
+}
+.wd-popup.popup-quick-view {
+	--wd-popup-width: 920px;
+}
+:root{
+--wd-container-w: 1222px;
+--wd-form-brd-radius: 0px;
+--btn-default-color: #333;
+--btn-default-color-hover: #333;
+--btn-accented-color: #333;
+--btn-accented-color-hover: #333;
+--btn-default-brd-radius: 0px;
+--btn-default-box-shadow: none;
+--btn-default-box-shadow-hover: none;
+--btn-default-box-shadow-active: none;
+--btn-default-bottom: 0px;
+--btn-accented-bottom-active: -1px;
+--btn-accented-brd-radius: 0px;
+--btn-accented-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+--btn-accented-box-shadow-hover: inset 0 -2px 0 rgba(0, 0, 0, .15);
+--wd-brd-radius: 0px;
+}
+
+@media (min-width: 1239px) {
+.platform-Windows .wd-section-stretch > .elementor-container {
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+@media (min-width: 1222px) {
+html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+
+@media (min-width: 1025px) {
+    .wd-scrollbar.platform-Windows {
+        --wd-scroll-w: -3px;
+    }
+}
+
+
+  /* additional overrides for any potential CF7 default margins */
+        .wpcf7-form p {
+            margin: 0 0 1rem 0;
+        }
+        .wpcf7-form .wpcf7-submit {
+            width: auto;
+        }
+        .sakura-contact-wrapper .wpcf7-form .wpcf7-list-item {
+            margin: 0;
+        }
+        .sakura-contact-wrapper .wpcf7-checkbox .wpcf7-list-item {
+            display: block;
+        }
+        .sakura-contact-wrapper .wpcf7-submit:active {
+            transform: scale(0.97);
+        }
+        /* make layout more breathable */
+        @media (max-width: 680px) {
+            .wpcf7-submit {
+                width: 100% !important;
+                text-align: center;
+            }
+        }
+
+
+ /* main container background will reflect theme color */
+        .sakura-contact-wrapper {
+            background-color: #162e44;   /* main theme background */
+            font-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            padding: 3rem 1.5rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* main card style – clean, modern, soft shadow */
+        .contact-card {
+            max-width: 1280px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.35);
+            transition: all 0.2s ease;
+        }
+
+        /* two column layout: left info panel + right form */
+        .contact-grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* LEFT PANEL — Sakura details, branded with theme */
+        .company-info {
+            flex: 1.2;
+            background: linear-gradient(135deg, #0f2a3b 0%, #162e44 100%);
+            padding: 2.8rem 2.2rem;
+            color: #f0f9ff;
+            position: relative;
+        }
+
+        /* subtle accent border / glow */
+        .company-info::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 6px;
+            height: 100%;
+            background: #00b0f5;
+            opacity: 0.6;
+        }
+
+        .brand-icon {
+            margin-bottom: 1.8rem;
+        }
+
+        .brand-icon span {
+            font-size: 3rem;
+            font-weight: 700;
+            background: rgba(0, 176, 245, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            display: inline-block;
+            backdrop-filter: blur(2px);
+            letter-spacing: 1px;
+            color: white;
+            border-left: 3px solid #00b0f5;
+        }
+
+        .company-name {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.8rem;
+            letter-spacing: -0.3px;
+            line-height: 1.2;
+            background: linear-gradient(120deg, #fff, #cceeff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .info-block {
+            margin: 2rem 0 0 0;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.8rem;
+        }
+
+        .info-icon {
+            min-width: 44px;
+            height: 44px;
+            background: rgba(0, 176, 245, 0.18);
+            border-radius: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            transition: 0.2s;
+            color: #00b0f5;
+        }
+
+        .info-text h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 6px;
+            color: #aadcff;
+        }
+
+        .info-text p, .info-text a {
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+            line-height: 1.45;
+            transition: 0.2s;
+        }
+
+        .info-text a:hover {
+            color: #00b0f5;
+            text-decoration: underline;
+        }
+
+        /* social tiny hints (optional) */
+        .social-hint {
+            margin-top: 2.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(0,176,245,0.3);
+            font-size: 0.85rem;
+            display: flex;
+            gap: 1rem;
+            color: #b8d9f5;
+        }
+
+        /* RIGHT PANEL — Contact Form 7 area */
+        .form-section {
+            flex: 1.6;
+            background: #ffffff;
+            padding: 2.8rem 2.4rem;
+        }
+
+        .form-title {
+            font-size: 1.9rem;
+            font-weight: 700;
+            margin-bottom: 0.6rem;
+            color: #162e44;
+            letter-spacing: -0.2px;
+        }
+
+        .form-sub {
+            color: #5b6f82;
+            border-left: 3px solid #00b0f5;
+            padding-left: 14px;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        /* Style Contact Form 7 elements to match brand perfectly */
+        .sakura-contact-wrapper .wpcf7-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.3rem;
+        }
+
+        /* input, textarea, select styling */
+        .sakura-contact-wrapper .wpcf7-form-control:not(.wpcf7-submit) {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 1rem;
+            font-family: inherit;
+            border: 1px solid #e2e8f0;
+            border-radius: 18px;
+            background: #fefefe;
+            transition: 0.25s ease;
+            outline: none;
+            color: #1a2c3e;
+        }
+
+        .sakura-contact-wrapper .wpcf7-form-control:not(.wpcf7-submit):focus {
+            border-color: #00b0f5;
+            box-shadow: 0 0 0 3px rgba(0, 176, 245, 0.2);
+        }
+
+        /* labels styling (if any labels appear) */
+        .sakura-contact-wrapper .wpcf7-form label {
+            font-weight: 600;
+            color: #162e44;
+            margin-bottom: 6px;
+            display: inline-block;
+            font-size: 0.9rem;
+        }
+
+
+        /* submit button — modern with brand color */
+.sakura-contact-wrapper .hidden-fields-container{
+display:none !important;
+}
+        .sakura-contact-wrapper .wpcf7-submit {
+            background: #00b0f5;
+            border: none;
+            padding: 14px 32px;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 40px;
+            color: white;
+            cursor: pointer;
+            transition: 0.2s;
+            width: auto;
+            display: inline-block;
+            letter-spacing: 0.8px;
+            box-shadow: 0 6px 14px rgba(0, 176, 245, 0.25);
+            margin-top: 8px;
+        }
+
+        .sakura-contact-wrapper .wpcf7-submit:hover {
+            background: #0c8bc2;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 20px rgba(0, 176, 245, 0.35);
+        }
+
+        /* response messages styling */
+        .sakura-contact-wrapper .wpcf7-response-output {
+            margin: 20px 0 0 0;
+            padding: 12px 18px;
+            border-radius: 28px;
+            font-weight: 500;
+        }
+
+        .sakura-contact-wrapper .wpcf7-not-valid-tip {
+            font-size: 0.8rem;
+            margin-top: 5px;
+            color: #e53e3e;
+        }
+
+        /* ensure spacing for form groups */
+        .sakura-contact-wrapper .wpcf7-form p {
+            margin-bottom: 0;
+        }
+
+        /* make textarea nicer */
+        .sakura-contact-wrapper textarea.wpcf7-form-control {
+            resize: vertical;
+            min-height: 110px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 880px) {
+            .contact-grid {
+                flex-direction: column;
+            }
+            .company-info {
+                border-radius: 32px 32px 0 0;
+            }
+            .form-section {
+                padding: 2rem 1.8rem;
+            }
+            .company-name {
+                font-size: 1.8rem;
+            }
+            .sakura-contact-wrapper {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .info-item {
+                gap: 0.8rem;
+            }
+            .form-title {
+                font-size: 1.6rem;
+            }
+            .company-info, .form-section {
+                padding: 1.8rem;
+            }
+        }
+
+        /* fix any CF7 default alignment */
+        .wpcf7-form br {
+            display: none;
+        }
+
+        /* additional touch of elegance: subtle hover on card */
+        .contact-card {
+            transition: transform 0.2s ease;
+        }
+        .contact-card:hover {
+            transform: scale(1.01);
+        }
+
+        /* custom placeholder color */
+        ::placeholder {
+            color: #a1b3c4;
+            opacity: 1;
+        }
+
+        /* for icon fonts we use simple UTF8 but modern */
+        .material-symbol {
+            font-weight: normal;
+        }
+
+.page .wd-page-content {
+    background-color: rgb(29, 45, 68);
+    background-image: none;
+}
+.post_clas .wd-entities-title{    height: 66px;    overflow: hidden;}
+ @media (max-width: 480px) {
+	 .post_clas .wd-entities-title{    height: 62px;    overflow: hidden;}
+	 .wd-nav-mobile li:is(.current-menu-item,.wd-active)>a {
+    color: #FFF !important;
+}
+}
+
+.post_clas .entry-content{height: 62px;    overflow: hidden; font-size:17px;}
+
+.my_blog .woodmart-title-container{color: #000;}
+.my_blog .elementor-widget-container p, .my_blog .elementor-widget-container a,  .my_blog .elementor-widget-container ul li{color: #262626;
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-size: 17px;
+    line-height: 1.41em;
+    font-weight: 400;
+}
+.blog_menu .wp-block-search__label{color: #262626;
+}
+.blog_menu input[type="search"] {
+    box-sizing: content-box;
+    -webkit-appearance: textfield;
+    border: 1px solid #dddddd;
+    width: 58%;
+}
+.blog_menu .widget-title, 
+.blog_menu .wd-entities-title, .blog_menu .recent-posts-info a{color: #262626;
+}
+.blog_menu .recent-posts-time, .blog_menu .recent-posts-comment{ display:none;}
+.wd-pge-content .title-blog{
+display:none;
+}
+.blog_menu .widget-heading{color:#000 !important; text-align:center;}
+.blog_menu .widget{padding:0; margin: 0 0 0 0;}
+.blog_menu .wd-product-cats{display:none;}
+
+.my_content .woodmart-title-container{color: #00b0f5 !important;}
+.my_content a{color: #00b0f5 !important; text-decoration:underline;}
